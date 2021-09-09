@@ -1,0 +1,7 @@
+en:
+  admin_js:
+    admin:
+      groups:
+        ip_blocks_list:
+          label: IP Blocks
+          description: Users logging in from this IP/CIDR blocks will automatically join this group.

@@ -1,0 +1,3 @@
+plugins:
+  group_membership_ip_block_enabled:
+    default: false
