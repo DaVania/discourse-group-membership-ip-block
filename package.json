@@ -1,0 +1,10 @@
+{
+  "name": "discourse-group-membership-ip-block",
+  "version": "0.1.0",
+  "repository": "https://github.com/discourse/discourse-group-membership-ip-block",
+  "author": "Discourse",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "^3.1.0"
+  }
+}

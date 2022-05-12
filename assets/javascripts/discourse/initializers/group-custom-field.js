@@ -5,6 +5,8 @@ export default {
   initialize() {
     withPluginApi("0.8.30", (api) => {
       api.modifyClass("model:group", {
+        pluginId: "discourse-group-membership-ip-block",
+
         custom_fields: {},
         asJSON() {
           return Object.assign(this._super(), {

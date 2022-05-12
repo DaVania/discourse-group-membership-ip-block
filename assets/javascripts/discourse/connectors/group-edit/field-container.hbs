@@ -1,5 +1,11 @@
 <div class="control-group ip-blocks-list">
-  <label class="control-label" for="ip_blocks_list">{{i18n 'admin.groups.ip_blocks_list.label'}}</label>
-  {{value-list values=group.custom_fields.ip_blocks_list class="input-xxlarge" name="ip_blocks_list"}}
-  <div class="desc">{{i18n 'admin.groups.ip_blocks_list.description'}}</div>
+  <label class="control-label" for="ip_blocks_list">
+    {{i18n "admin.groups.ip_blocks_list.label"}}
+  </label>
+  {{value-list
+    values=group.custom_fields.ip_blocks_list
+    class="input-xxlarge"
+    name="ip_blocks_list"
+  }}
+  <div class="desc">{{i18n "admin.groups.ip_blocks_list.description"}}</div>
 </div>
